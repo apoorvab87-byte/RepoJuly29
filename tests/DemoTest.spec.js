@@ -12,7 +12,7 @@ import { UserNameXPath, PasswordXPath, LoginBtnXPath, ProductsortcontainerXpath 
 
 import { test, expect } from '../Fixtures/base'
 
-test('demo', async ({ page, ProductsPage, request }) => {
+test.only('demo', async ({ page, ProductsPage, request }) => {
 
     //const productspage = new ProductsPage(page);
     await ProductsPage.login();
