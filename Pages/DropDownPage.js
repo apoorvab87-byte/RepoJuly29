@@ -13,7 +13,7 @@ export class DropDownPage extends BasePage {
     constructor(page) {
 
         super(page);
-        this.page = page ;
+        //this.page = page ;
     }
 
     async ValidateDropdown() {

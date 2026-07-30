@@ -6,15 +6,15 @@ import { UserNameXPath, PasswordXPath, LoginBtnXPath } from '../PageObjects/Obje
 
 import { waitAndClick, waitAndFill } from '../utils/elementActions'; // Utility functions for element actions
 
-export class BasePage {
+export class BasePage { //Class creation
 
-    constructor(page) {
+    constructor(page) { //constructor
 
         this.page = page;
 
     }
 
-    async login() {
+    async login() {  //Function
 
         await this.page.goto(testdata.url);
 

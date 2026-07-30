@@ -19,8 +19,10 @@ test('demo', async ({ page, ProductsPage, request }) => {
     //await page.pause();
     await ProductsPage.ValidateDropdown();
     //await page.pause();
-    await ProductsPage.ProductsPagemethod();
+    //await ProductsPage.ProductsPagemethod();
     //await page.pause();
+    await ProductsPage.ProductsItemName();
+     //await page.pause();
     await ProductsPage.logout();
     //await page.pause();
 
@@ -74,7 +76,7 @@ test('demo', async ({ page, ProductsPage, request }) => {
      */
 
 /* 
-
+//PATCH
     const requestBody = {
         title: "Updated Playwright Title"
     };
@@ -101,7 +103,7 @@ test('demo', async ({ page, ProductsPage, request }) => {
  */
 
 
-
+//DELETE
     
    /*  const response = await request.delete(
         'https://jsonplaceholder.typicode.com/posts/1'
